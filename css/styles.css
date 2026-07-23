@@ -819,7 +819,7 @@ button {
 /* Projects Grid */
 .projects-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 2.5rem;
 }
 
@@ -1173,5 +1173,11 @@ button {
 
   .timeline-dot {
     left: 4px;
+  }
+}
+
+@media (max-width: 576px) {
+  .stats-bar {
+    grid-template-columns: 1fr;
   }
 }
