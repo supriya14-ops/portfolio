@@ -16,9 +16,9 @@ const App = () => {
     }, 4000);
   };
 
-  React.useEffect(() => {
+      React.useEffect(() => {
     const handleScroll = () => {
-      const sections = ['hero', 'about', 'skills', 'experience', 'projects', 'contact'];
+      const sections = ['hero', 'about', 'skills', 'experience', 'projects', 'publications', 'contact'];
       const scrollPosition = window.scrollY + 200;
 
       for (const sectionId of sections) {
@@ -55,6 +55,7 @@ const App = () => {
         <Skills />
         <Experience />
         <Projects />
+        <Publications />
         <Certifications />
         <Contact showToast={showToast} />
       </main>
