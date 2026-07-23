@@ -434,6 +434,7 @@ button {
   position: absolute;
   width: 340px;
   height: 340px;
+  max-width: 100%;
   border-radius: 50%;
   background: var(--gradient-primary);
   opacity: 0.25;
@@ -450,6 +451,7 @@ button {
   position: relative;
   width: 320px;
   height: 380px;
+  max-width: 100%;
   border-radius: var(--radius-xl);
   padding: 8px;
   background: linear-gradient(135deg, rgba(99, 102, 241, 0.4), rgba(6, 182, 212, 0.2), rgba(255, 255, 255, 0.05));
