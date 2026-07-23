@@ -1,5 +1,5 @@
 const App = () => {
-  const [theme, setTheme] = React.useState('light');
+  const [theme, setTheme] = React.useState('dark');
   const [activeSection, setActiveSection] = React.useState('hero');
   const [toastMessage, setToastMessage] = React.useState(null);
 
